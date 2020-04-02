@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mayan-lab.github.io/en/about/about/</loc>
+    <lastmod>2020-04-01T23:13:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/about/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/about/</loc>
+    <lastmod>2020-04-01T23:13:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/</loc>
+    <lastmod>2020-04-01T23:13:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mayan-lab.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -13,20 +58,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mayan-lab.github.io/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mayan-lab.github.io/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mayan-lab.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mayan-lab.github.io/en/"
                 />
   </url>
   

@@ -3,32 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mayan-lab.github.io/zh/tags/amoji/</loc>
+    <loc>https://mayan-lab.github.io/zh/</loc>
     <lastmod>2020-04-02T00:10:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mayan-lab.github.io/zh/tags/bamoji/</loc>
-    <lastmod>2020-04-02T00:10:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mayan-lab.github.io/zh/tags/emoji/</loc>
-    <lastmod>2020-04-02T00:10:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/"
+                />
   </url>
   
   <url>
     <loc>https://mayan-lab.github.io/zh/posts/first-page/</loc>
-    <lastmod>2020-04-02T00:10:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mayan-lab.github.io/zh/tags/gamoji/</loc>
-    <lastmod>2020-04-02T00:10:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mayan-lab.github.io/zh/tags/namoji/</loc>
     <lastmod>2020-04-02T00:10:51+08:00</lastmod>
   </url>
   
@@ -53,18 +43,8 @@
   </url>
   
   <url>
-    <loc>https://mayan-lab.github.io/zh/</loc>
+    <loc>https://mayan-lab.github.io/zh/tags/test/</loc>
     <lastmod>2020-04-02T00:10:51+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mayan-lab.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mayan-lab.github.io/zh/"
-                />
   </url>
   
   <url>
@@ -80,11 +60,31 @@
   <url>
     <loc>https://mayan-lab.github.io/zh/about/about/</loc>
     <lastmod>2020-04-01T23:13:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/about/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/about/about/"
+                />
   </url>
   
   <url>
     <loc>https://mayan-lab.github.io/zh/about/</loc>
     <lastmod>2020-04-01T23:13:59+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/about/"
+                />
   </url>
   
   <url>
