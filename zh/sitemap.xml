@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/zone/geochemistry/</loc>
+    <lastmod>2020-04-01T23:32:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/zone/</loc>
+    <lastmod>2020-04-01T23:32:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/</loc>
+    <lastmod>2020-04-01T23:32:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/about/about/</loc>
+    <lastmod>2020-04-01T23:13:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/about/</loc>
+    <lastmod>2020-04-01T23:13:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/archive/</loc>
+    <lastmod>2020-04-01T11:44:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/tags/index/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/tags/"
+                />
+  </url>
+  
+</urlset>
