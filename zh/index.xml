@@ -14,7 +14,7 @@
     <managingEditor>shengzhaoqiu@gmail.com (zhaoqiu)</managingEditor>
     <webMaster>shengzhaoqiu@gmail.com (zhaoqiu)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 02 Apr 2020 00:10:51 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 00:17:51 +0800</lastBuildDate>
     
         <atom:link href="https://mayan-lab.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,34 @@
         
       
 
+      
+      <item>
+        <title>行星名称起源</title>
+        <link>https://mayan-lab.github.io/zh/posts/planet-name-origins/</link>
+        <pubDate>Thu, 02 Apr 2020 00:17:51 +0800</pubDate>
+        <author>shengzhaoqiu@gmail.com (zhaoqiu)</author>
+        <atom:modified>Thu, 02 Apr 2020 00:17:51 +0800</atom:modified>
+        <guid>https://mayan-lab.github.io/zh/posts/planet-name-origins/</guid>
+        <description>八大行星的名字都来源于罗马诸神，这些名字都蕴含了对应行星的特点。 Solar system Mercury：命名于罗马信使神，他脚上有翅膀，有着出了名的移动速度。 V</description>
+        
+        <dc:creator>zhaoqiu</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>planet</category>
+            
+          
+            
+              <category>astronomy</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>First Page</title>
