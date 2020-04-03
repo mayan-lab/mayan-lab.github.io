@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="baidu-site-verification" content="uPYYxnPI0V" />
     <meta name="google-site-verification" content="kcR6pelCwK4OwT5fX96kShzzrHKVkTUDpBcbeMhVl9U" />
-    <title>First Page – 玛雅实验室</title>
+    <title>第一篇文章：记录使用到的Hugo的功能 – 玛雅实验室</title>
     
 
 
@@ -1197,10 +1197,10 @@
 
 
     
-<meta name="description" content="Guide to emoji usage in Hugo" />
+<meta name="description" content="记录使用到的Hugo,github page的功能" />
 
 
-<meta name="keywords" content="test">
+<meta name="keywords" content="hugo">
 
 <meta name="created" content="2020-04-02T00:10:51&#43;0800">
 <meta name="modified" content="2020-04-02T00:10:51&#43;0800">
@@ -1211,10 +1211,10 @@
 
 
 <meta property="og:site_name" content="玛雅实验室">
-<meta property="og:title" content="First Page">
+<meta property="og:title" content="第一篇文章：记录使用到的Hugo的功能">
 <meta property="og:url" content="https://mayan-lab.github.io/zh/posts/first-page/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Guide to emoji usage in Hugo">
+<meta property="og:description" content="记录使用到的Hugo,github page的功能">
 
 <meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
@@ -1251,12 +1251,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "First Page",
+    "headline": "第一篇文章：记录使用到的Hugo的功能",
     "datePublished": "2020-04-02T00:10:51+08:00",
     "dateModified": "2020-04-02T00:10:51+08:00",
     "url" : "https://mayan-lab.github.io/zh/posts/first-page/",
-    "description": "Guide to emoji usage in Hugo",
-    "keywords": ["test"],
+    "description": "记录使用到的Hugo,github page的功能",
+    "keywords": ["hugo"],
     "author": {
       "@type": "Person",
       "name": "zhaoqiu"
@@ -1584,7 +1584,7 @@
   
   <li  class="is-active" >
     
-      <span>First Page</span>
+      <span>第一篇文章：记录使用到的Hugo的功能</span>
     
   </li>
   
@@ -1596,15 +1596,15 @@
   <div class="single ">
     <div class="single__nojs">Please enable Javascript to view the contents</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">First Page</h2>
+    <h2 class="single__title" data-ani="true">第一篇文章：记录使用到的Hugo的功能</h2>
     <div class="single__meta">
       
 <div class="single__infos">
   <time class="single__info" title="创建日期">📅&nbsp;2020年04月02日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="阅读时长"> ☕&nbsp;1&nbsp;分钟 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="阅读时长"> ☕&nbsp;2&nbsp;分钟 </span>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="作者">👻&nbsp;zhaoqiu</span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="作者">👽&nbsp;zhaoqiu</span>
   
   <span class="single__info">
     
@@ -1616,14 +1616,85 @@
   🏷️
   
 
-  <li><a href="https://mayan-lab.github.io/zh/tags/test/" class="single__tag" title="test">#test</a></li>
+  <li><a href="https://mayan-lab.github.io/zh/tags/hugo/" class="single__tag" title="hugo">#hugo</a></li>
 
 </ul>
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h1 id="test-page">Test Page</h1>
-<p><img src="/images/planets/solar-system.png" alt="Solor system" /></p>
+      <h2 id="基本配置">基本配置</h2>
+<p>同时在win和mac上部署了hugo，都使用了Webstorm，本来打算借助Webstorm对Git的集成的优势，但使用下来体验并不好，最后还是在Webstorm中的Terminal中进行git。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Bash" data-lang="Bash"><span class="nb">cd</span> public
+git init
+git remote add origin git@github.com:/&lt;github_username&gt;/&lt;github_username&gt;.github.io.git
+git add .
+git commit -m <span class="s2">&#34;some message&#34;</span>
+<span class="c1"># -u表示以后可以仅使用git push进行上传</span>
+git push -u origin master
+
+<span class="c1"># 新机器同步仓库  拷贝其他不需要同步的文件时注意删除.git隐藏文件夹</span>
+git pull origin master
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Bash" data-lang="Bash"><span class="c1"># hugo command</span>
+<span class="c1"># 启动本地server</span>
+hugo server -D
+<span class="c1"># 新建站点</span>
+hugo new site sitename
+<span class="c1"># 在已存在的文件夹下强制创建</span>
+hugo new site sitename --force
+
+<span class="c1"># 新建文章</span>
+hugo new posts/my-post.md
+
+<span class="c1"># 构建项目 在根目录下运行</span>
+hugo
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="百度不收录github-page">百度不收录Github Page</h2>
+<p>首先尝试<a href="https://zeit.co/">zeit.co</a>提供的免费CDN，但百度仍然不能正常抓取,抓取测试提示308错误，而且不能认证为https，原因现在还没找到。另外，<a href="https://about.gitlab.com/blog/2016/04/07/gitlab-pages-setup/">Gitlab Page</a>也可以考虑，但是，gitlab并不是提交hugo构建后的静态文件，而是接受原资源，进而在其服务器里自动构建，要想更便捷的同时同步Github和Gitlab的Page内容并不容易。</p>
+<h2 id="插入自定义js-css">插入自定义js, css</h2>
+<div class="box">
+custom_css = [ ] # custom_css = ["scss/custom.scss"] root/assets/scss/custom.scss
+custom_js = [ ] # custom_js = ["js/custom.js"] root/assets/js/custom.js
+</div>
+<ul>
+<li>通过尝试加入去除链接下的下划线的css文件，发现并没有起作用。</li>
+<li>计划通过加入typescript编译过后的js文件以及d3js与Github page结合，封装一些d3js绘图的模块。</li>
+</ul>
 
     </article>
     
@@ -1695,111 +1766,6 @@
 
     
     
-<div class="whoami__gutter"></div>
-<hr class="hr-slash whoami-hr"/>
-<section class="whoami">
-  <div class="whoami__image-wrapper">
-    
-    
-      
-        <img data-src="/images/whoami/avatar.png" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" alt="zhaoqiu" class="lazyload whoami__image"/>
-      
-    
-  </div>
-  <div class="whoami__contents">
-    <div class="whoami__written-by">
-      作者
-    </div>
-    <div class="whoami__title">
-      
-        zhaoqiu
-      
-    </div>
-    <div class="whoami__desc">
-      
-        地球化学
-      
-    </div>
-    <div class="whoami__social">
-      
-      
-      
-      
-      
-      
-      
-      
-      <a href="mailto:shengzhaoqiu@gmail.com" title="email" aria-label="email">
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"/></svg>
-      </a>
-      
-      
-      
-      
-      
-      
-      
-      <a href="https://github.com/" title="github" aria-label="github">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 24 24" version="1.1">
-<g id="surface3680">
-<path fill="currentColor" d="M 10.898438 2.101562 C 6.300781 2.601562 2.601562 6.300781 2.101562 10.800781 C 1.601562 15.5 4.300781 19.699219 8.398438 21.300781 C 8.699219 21.398438 9 21.199219 9 20.800781 L 9 19.199219 C 9 19.199219 8.601562 19.300781 8.101562 19.300781 C 6.699219 19.300781 6.101562 18.101562 6 17.398438 C 5.898438 17 5.699219 16.699219 5.398438 16.398438 C 5.101562 16.300781 5 16.300781 5 16.199219 C 5 16 5.300781 16 5.398438 16 C 6 16 6.5 16.699219 6.699219 17 C 7.199219 17.800781 7.800781 18 8.101562 18 C 8.5 18 8.800781 17.898438 9 17.800781 C 9.101562 17.101562 9.398438 16.398438 10 16 C 7.699219 15.5 6 14.199219 6 12 C 6 10.898438 6.5 9.800781 7.199219 9 C 7.101562 8.800781 7 8.300781 7 7.601562 C 7 7.199219 7 6.601562 7.300781 6 C 7.300781 6 8.699219 6 10.101562 7.300781 C 10.601562 7.101562 11.300781 7 12 7 C 12.699219 7 13.398438 7.101562 14 7.300781 C 15.300781 6 16.800781 6 16.800781 6 C 17 6.601562 17 7.199219 17 7.601562 C 17 8.398438 16.898438 8.800781 16.800781 9 C 17.5 9.800781 18 10.800781 18 12 C 18 14.199219 16.300781 15.5 14 16 C 14.601562 16.5 15 17.398438 15 18.300781 L 15 20.898438 C 15 21.199219 15.300781 21.5 15.699219 21.398438 C 19.398438 19.898438 22 16.300781 22 12.101562 C 22 6.101562 16.898438 1.398438 10.898438 2.101562 Z M 10.898438 2.101562 "/>
-</g>
-</svg>
-
-      </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</section>
-<hr class="hr-slash whoami-hr" />
-
 
     <section class="related">
     
@@ -2172,7 +2138,13 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc " data-dir="ltr" data-folding="true" data-ani="true">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#基本配置">基本配置</a></li>
+    <li><a href="#百度不收录github-page">百度不收录Github Page</a></li>
+    <li><a href="#插入自定义js-css">插入自定义js, css</a></li>
+  </ul>
+</nav>
   </div>
 </section>
 
