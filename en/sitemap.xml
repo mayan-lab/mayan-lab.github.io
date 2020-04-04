@@ -3,6 +3,121 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mayan-lab.github.io/en/posts/customizing-excel-function/</loc>
+    <lastmod>2020-04-04T13:43:38+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/posts/customizing-excel-function/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/posts/customizing-excel-function/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/tags/data-formatting/</loc>
+    <lastmod>2020-04-04T13:43:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/tags/excel/</loc>
+    <lastmod>2020-04-04T13:43:38+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/tags/excel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/tags/excel/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/</loc>
+    <lastmod>2020-04-04T13:43:38+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/tags/molecular-weight/</loc>
+    <lastmod>2020-04-04T13:43:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/posts/</loc>
+    <lastmod>2020-04-04T13:43:38+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/tags/</loc>
+    <lastmod>2020-04-04T13:43:38+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/zone/</loc>
+    <lastmod>2020-04-01T23:32:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/zone/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/zone/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/en/zone/geochemistry/</loc>
+    <lastmod>2020-04-01T23:32:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mayan-lab.github.io/zh/zone/geochemistry/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mayan-lab.github.io/en/zone/geochemistry/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mayan-lab.github.io/en/about/about/</loc>
     <lastmod>2020-04-01T23:13:59+08:00</lastmod>
     <xhtml:link
@@ -33,17 +148,17 @@
   </url>
   
   <url>
-    <loc>https://mayan-lab.github.io/en/</loc>
-    <lastmod>2020-04-01T23:13:59+08:00</lastmod>
+    <loc>https://mayan-lab.github.io/en/archive/</loc>
+    <lastmod>2020-04-01T11:44:14+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mayan-lab.github.io/zh/"
+                href="https://mayan-lab.github.io/zh/archive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mayan-lab.github.io/en/"
+                href="https://mayan-lab.github.io/en/archive/"
                 />
   </url>
   
@@ -76,20 +191,6 @@
   </url>
   
   <url>
-    <loc>https://mayan-lab.github.io/en/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mayan-lab.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mayan-lab.github.io/en/posts/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mayan-lab.github.io/en/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -100,20 +201,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mayan-lab.github.io/en/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mayan-lab.github.io/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mayan-lab.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mayan-lab.github.io/en/tags/"
                 />
   </url>
   

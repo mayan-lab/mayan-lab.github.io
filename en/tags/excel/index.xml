@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Excel on Mayan-Lab</title>
+    <link>https://mayan-lab.github.io/en/tags/excel/</link>
+    <description>Recent content in Excel on Mayan-Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>shengzhaoqiu@gmail.com (zhaoqiu)</managingEditor>
+    <webMaster>shengzhaoqiu@gmail.com (zhaoqiu)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 04 Apr 2020 13:43:38 +0800</lastBuildDate>
+    
+        <atom:link href="https://mayan-lab.github.io/en/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Customizing Excel Function</title>
+        <link>https://mayan-lab.github.io/en/posts/customizing-excel-function/</link>
+        <pubDate>Sat, 04 Apr 2020 13:43:38 +0800</pubDate>
+        <author>shengzhaoqiu@gmail.com (zhaoqiu)</author>
+        <atom:modified>Sat, 04 Apr 2020 13:43:38 +0800</atom:modified>
+        <guid>https://mayan-lab.github.io/en/posts/customizing-excel-function/</guid>
+        <description>Basics Customizing functions by Excel VBA greatly facilitate processing data, and it help improve efficiency. Normally, Function of VBA is used to define some process(instead of Sub, which can&amp;rsquo;t return values). Even xls files contain customizing function are opened at other computer has no this function, Excel remains results. How to insert your customizing codes creating a new Excel sheet, then pressing alt + F11, click Insert, Moulde. Function example</description>
+        
+        <dc:creator>zhaoqiu</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Excel</category>
+            
+          
+            
+              <category>molecular weight</category>
+            
+          
+            
+              <category>data formatting</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

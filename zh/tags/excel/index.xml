@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Excel on 玛雅实验室</title>
+    <link>https://mayan-lab.github.io/zh/tags/excel/</link>
+    <description>Recent content in Excel on 玛雅实验室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>shengzhaoqiu@gmail.com (zhaoqiu)</managingEditor>
+    <webMaster>shengzhaoqiu@gmail.com (zhaoqiu)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 04 Apr 2020 13:43:38 +0800</lastBuildDate>
+    
+        <atom:link href="https://mayan-lab.github.io/zh/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>自定义Excel函数</title>
+        <link>https://mayan-lab.github.io/zh/posts/customizing-excel-function/</link>
+        <pubDate>Sat, 04 Apr 2020 13:43:38 +0800</pubDate>
+        <author>shengzhaoqiu@gmail.com (zhaoqiu)</author>
+        <atom:modified>Sat, 04 Apr 2020 13:43:38 +0800</atom:modified>
+        <guid>https://mayan-lab.github.io/zh/posts/customizing-excel-function/</guid>
+        <description>基础 通过Excel VBA编写特殊用途的函数，可以更方便地处理数据，提高效率。一般使用VBA中的Function来定义函数（Sub 不能提供返回</description>
+        
+        <dc:creator>zhaoqiu</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Excel</category>
+            
+          
+            
+              <category>分子量</category>
+            
+          
+            
+              <category>提取</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
