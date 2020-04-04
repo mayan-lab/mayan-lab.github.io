@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Posts on 玛雅实验室</title>
+    <title>博客 on 玛雅实验室</title>
     <link>https://mayan-lab.github.io/zh/posts/</link>
-    <description>Recent content in Posts on 玛雅实验室</description>
+    <description>Recent content in 博客 on 玛雅实验室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>shengzhaoqiu@gmail.com (zhaoqiu)</managingEditor>
@@ -32,7 +32,7 @@
         <description>八大行星的名字都来源于 罗马诸神 ，这些名字都蕴含了对应行星的特点。 Solar system1 Mercury：命名于罗马信使神，他脚上有翅膀，有着出了名的移动速度。 V</description>
         
         <dc:creator>zhaoqiu</dc:creator>
-        
+        <media:content url="https://mayan-lab.github.ioimages/planets/solar-system-100.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
