@@ -1196,6 +1196,14 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
+
+  
+  
+    
+    <link rel="stylesheet" href="/css/links.min.css">
+  
+
+
     
 <meta name="description" content="记录使用到的Hugo和github page的功能" />
 
@@ -1279,8 +1287,37 @@
 
 
 
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-526Z4NL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
+
+
+  
+  
+  <script>
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      page:'第一篇文章：记录使用到的Hugo的功能',
+      categories:'only examples about your dataLayer'
+    });
+  </script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-526Z4NL');</script>
+  
+
+
+
+  <script>
+    
+    var baiduAnalyticsId = JSON.parse("\"38f13d69ab1b73b0aaa4b7f548c72736\"");
+
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?" + baiduAnalyticsId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
     
@@ -1292,15 +1329,6 @@
         if (localTheme) {
             document.getElementById('root').className = 'theme__' + localTheme;
         }
-    </script>
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?38f13d69ab1b73b0aaa4b7f548c72736";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
     </script>
     <div id="container">
         
@@ -1695,6 +1723,7 @@ custom_js = [ ] # custom_js = ["js/custom.js"] root/assets/js/custom.js
 <li>通过尝试加入去除链接下的下划线的css文件，发现并没有起作用。</li>
 <li>计划通过加入typescript编译过后的js文件以及d3js与Github page结合，封装一些d3js绘图的模块。</li>
 </ul>
+<h2 id="mac-win-协同编辑">Mac Win 协同编辑</h2>
 
     </article>
     
@@ -1787,6 +1816,23 @@ custom_js = [ ] # custom_js = ["js/custom.js"] root/assets/js/custom.js
   
 </nav>
     
+  
+    
+<div id="vcomments"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+  new Valine({
+      el: '#vcomments' ,
+      appId: 'WClvTH60bwlc9BkLAJTvCQAT-gzGzoHsz',
+      appKey: 'XpsVNHOlik541bl75J5kfDEU',
+      notify:  true ,
+      verify:  false ,
+      avatar:'mm',
+      placeholder: '...',
+      visitor:  false 
+  });
+</script>
   
 
     <div class="modal micromodal-slide" id="modal" aria-hidden="true">
@@ -2143,6 +2189,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <li><a href="#基本配置">基本配置</a></li>
     <li><a href="#百度不收录github-page">百度不收录Github Page</a></li>
     <li><a href="#插入自定义js-css">插入自定义js, css</a></li>
+    <li><a href="#mac-win-协同编辑">Mac Win 协同编辑</a></li>
   </ul>
 </nav>
   </div>
@@ -2932,6 +2979,8 @@ document.addEventListener('DOMContentLoaded', function () {
             </p>
         
 
+        
+            <p class="caption">Powered by <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zzo" target="_blank" rel="noreferrer">Zzo theme</a></p>
         
         
     </div> 
