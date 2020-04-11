@@ -1196,14 +1196,6 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-
-  
-  
-    
-    <link rel="stylesheet" href="/css/links.min.css">
-  
-
-
     
 <meta name="description" content="记录使用到的Hugo和github page的功能" />
 
@@ -1321,6 +1313,31 @@
 
 
     
+
+    
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.1/d3.min.js"></script>
+    
+
+
+
+
+
+
+
+<script defer src="/js/first_page.min.5c944bd9011c52403b070e67c5a4e22e8a3858ec2a733a7796a89b88b99be2f6.js"></script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/links.min.bb335e27c8aeb0acd1cbf287c2137a06cab69c42f7fce9b76bf31d962de89988.css">
+
+
+
 </head>
 
 <body id="root" class="theme__dark">
@@ -1715,14 +1732,63 @@ hugo
 </div><h2 id="百度不收录github-page">百度不收录Github Page</h2>
 <p>首先尝试<a href="https://zeit.co/">zeit.co</a>提供的免费CDN，但百度仍然不能正常抓取,抓取测试提示308错误，而且不能认证为https，原因现在还没找到。另外，<a href="https://about.gitlab.com/blog/2016/04/07/gitlab-pages-setup/">Gitlab Page</a>也可以考虑，但是，gitlab并不是提交hugo构建后的静态文件，而是接受原资源，进而在其服务器里自动构建，要想更便捷的同时同步Github和Gitlab的Page内容并不容易。</p>
 <h2 id="插入自定义js-css">插入自定义js, css</h2>
-<div class="box">
-custom_css = [ ] # custom_css = ["scss/custom.scss"] root/assets/scss/custom.scss
-custom_js = [ ] # custom_js = ["js/custom.js"] root/assets/js/custom.js
-</div>
-<ul>
-<li>通过尝试加入去除链接下的下划线的css文件，发现并没有起作用。</li>
-<li>计划通过加入typescript编译过后的js文件以及d3js与Github page结合，封装一些d3js绘图的模块。</li>
+<h3 id="全局加载">全局加载</h3>
+<pre><code>custom_css = [ ] # custom_css = [&quot;scss/custom.scss&quot;] root/assets/scss/custom.scss
+custom_js = [&quot;js/first_page.js&quot;] # custom_js = [&quot;js/custom.js&quot;] root/assets/js/custom.js
+</code></pre><ul>
+<li>自定义链接下划线css失败。默认情况下，普通段落中链接文字显示下划线，但列表等中的链接文字不显示下划线，比如：<a href="https://about.gitlab.com/blog/2016/04/07/gitlab-pages-setup/">Gitlab Page</a>，仍然会有下划线。</li>
+<li>计划通过加入typescript编译过后的js文件以及d3js与Github page结合，封装一些<a href="https://d3js.org/">d3js</a>绘图的模块。</li>
 </ul>
+<h3 id="局部加载">局部加载</h3>
+<ol>
+<li>在Front Matter中添加
+<pre><code>---
+title: &quot;Your catchy title&quot;
+cdnjs: [&quot;https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.1/d3.min.js&quot;]
+custom_js_in_post: [&quot;js/first_page.js&quot;]
+---
+</code></pre></li>
+<li>在<code>themes/zzo/partials/head/custom-head.html</code>中添加(也可以在自定义布局的文件夹下新建相似目录)：
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html">{{ if .Params.cdnjs }}
+    {{ range $cdnjsone := .Params.cdnjs }}
+            <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;{{ $cdnjsone }}&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    {{ end }}
+{{ end }}
+
+{{ if .Params.custom_js_in_post }}
+    {{ range .Params.custom_js_in_post }}
+        {{ $custom_template := resources.Get . }}
+            {{ if $custom_template }}
+            {{ $custom_js := $custom_template | resources.Minify | resources.Fingerprint }}
+            <span class="p">&lt;</span><span class="nt">script</span> <span class="na">defer</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;{{ $custom_js.RelPermalink }}&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+            {{ end }}
+    {{ end }}
+{{ end }}
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+<h3 id="调用d3js示例">调用d3js示例</h3>
+<div id="mineraltree"></div>
 <h2 id="mac-win-协同编辑">Mac Win 协同编辑</h2>
 
     </article>
@@ -2188,7 +2254,13 @@ document.addEventListener('DOMContentLoaded', function () {
   <ul>
     <li><a href="#基本配置">基本配置</a></li>
     <li><a href="#百度不收录github-page">百度不收录Github Page</a></li>
-    <li><a href="#插入自定义js-css">插入自定义js, css</a></li>
+    <li><a href="#插入自定义js-css">插入自定义js, css</a>
+      <ul>
+        <li><a href="#全局加载">全局加载</a></li>
+        <li><a href="#局部加载">局部加载</a></li>
+        <li><a href="#调用d3js示例">调用d3js示例</a></li>
+      </ul>
+    </li>
     <li><a href="#mac-win-协同编辑">Mac Win 协同编辑</a></li>
   </ul>
 </nav>
