@@ -1731,7 +1731,7 @@
 <li>查询时候包含某个字符串：ismember(strGroup, oneStr)，将字符串数组作为第一参数，方便获得索引。</li>
 </ul>
 
-<div id="cd177cbbbd8b5c59" class="tab">
+<div id="2fbf7a6f447f07f3" class="tab">
   <div class="tab__links">
     
       <button class="tab__link" aria-label="Tab link">示例</button>
@@ -1744,7 +1744,7 @@
   
 
 
-<div id="62e3dacfc1edf912" class="tab__content">
+<div id="0d5096d0ff3adf12" class="tab__content">
   <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">  1
@@ -2017,8 +2017,8 @@
        <span class="k">end</span>
     <span class="k">end</span>
 <span class="k">end</span>
-<span class="k">
-</span><span class="k">function</span><span class="w"> </span>postfixExp <span class="p">=</span><span class="w"> </span><span class="nf">transformPostfixExpression</span><span class="p">(</span>expression<span class="p">)</span><span class="w">
+
+<span class="k">function</span><span class="w"> </span>postfixExp <span class="p">=</span><span class="w"> </span><span class="nf">transformPostfixExpression</span><span class="p">(</span>expression<span class="p">)</span><span class="w">
 </span><span class="w">
 </span><span class="w">    </span><span class="cm">%{
 </span><span class="cm">    去除空格
@@ -2185,7 +2185,7 @@
 </div>
 
 
-<div id="8aaa3f66294264c9" class="tab__content">
+<div id="78c637848123c7a0" class="tab__content">
   <p>为了配合网页语法高亮，注释采用<code>%{ %}</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2272,8 +2272,8 @@
        <span class="n">stack</span><span class="p">=</span><span class="n">cell</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
    <span class="k">end</span>
    <span class="k">methods</span>
-<span class="k">
-</span><span class="k">       function</span><span class="w"> </span><span class="nf">displayU</span><span class="p">(</span>this<span class="p">)</span><span class="w">
+
+<span class="k">       function</span><span class="w"> </span><span class="nf">displayU</span><span class="p">(</span>this<span class="p">)</span><span class="w">
 </span><span class="w">           </span><span class="n">celldisp</span><span class="p">(</span><span class="n">this</span><span class="p">.</span><span class="n">stack</span><span class="p">);</span>
        <span class="k">end</span>
 <span class="k">       function</span><span class="w"> </span>x <span class="p">=</span><span class="w"> </span><span class="nf">getTop</span><span class="p">(</span>this<span class="p">)</span><span class="w">
@@ -2345,7 +2345,7 @@
 </div>
 
 
-<div id="bf3132b51f35f03e" class="tab__content">
+<div id="cdb84b80d2126233" class="tab__content">
   <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">  1
@@ -2611,8 +2611,8 @@
 <span class="n">expressionedit</span><span class="p">=</span><span class="n">uicontrol</span><span class="p">(</span><span class="n">inputpanel</span><span class="p">,</span><span class="s">&#39;Units&#39;</span><span class="p">,</span><span class="s">&#39;Normalized&#39;</span><span class="p">,</span><span class="s">&#39;Position&#39;</span><span class="p">,[</span><span class="mf">0.25</span> <span class="mf">0.4</span> <span class="mf">0.5</span> <span class="mf">0.2</span><span class="p">],</span><span class="s">&#39;Style&#39;</span><span class="p">,</span><span class="s">&#39;edit&#39;</span><span class="p">,</span><span class="s">&#39;String&#39;</span><span class="p">,</span><span class="s">&#39;&#39;</span><span class="p">,</span><span class="s">&#39;fontsize&#39;</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="s">&#39;Callback&#39;</span><span class="p">,{@</span><span class="n">exp_Callback</span><span class="p">,</span> <span class="n">resultpanel</span><span class="p">});</span>
 <span class="n">info</span> <span class="p">=</span> <span class="p">{</span><span class="s">&#39;运行时变量:&#39;</span><span class="p">;</span><span class="s">&#39;a = [1 2;3 4]&#39;</span><span class="p">;</span><span class="s">&#39;b = [5 6;7 8]&#39;</span><span class="p">;</span><span class="s">&#39;nameList = {&#39;&#39;a&#39;&#39;,&#39;&#39;b&#39;&#39;}&#39;</span><span class="p">;};</span>
 <span class="n">uicontrol</span><span class="p">(</span><span class="n">inputpanel</span><span class="p">,</span><span class="s">&#39;Style&#39;</span><span class="p">,</span><span class="s">&#39;text&#39;</span><span class="p">,</span><span class="s">&#39;Units&#39;</span><span class="p">,</span><span class="s">&#39;Normalized&#39;</span><span class="p">,</span><span class="s">&#39;String&#39;</span><span class="p">,</span><span class="n">info</span><span class="p">,</span><span class="s">&#39;fontsize&#39;</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="s">&#39;Position&#39;</span><span class="p">,[</span><span class="mf">0.25</span> <span class="mf">0.6</span> <span class="mf">0.5</span> <span class="mf">0.3</span><span class="p">]);</span>
-<span class="k">
-</span><span class="k">function</span><span class="w"> </span><span class="nf">exp_Callback</span><span class="p">(</span>src,event,resultpanel<span class="p">)</span><span class="w">
+
+<span class="k">function</span><span class="w"> </span><span class="nf">exp_Callback</span><span class="p">(</span>src,event,resultpanel<span class="p">)</span><span class="w">
 </span><span class="w">
 </span><span class="w">    </span><span class="n">expression</span> <span class="p">=</span> <span class="n">get</span><span class="p">(</span><span class="n">src</span><span class="p">,</span><span class="s">&#39;String&#39;</span><span class="p">);</span>
     <span class="k">if</span> <span class="o">~</span><span class="nb">isempty</span><span class="p">(</span><span class="n">expression</span><span class="p">)</span>
@@ -2861,7 +2861,7 @@
 <script>
   'use strict';
 
-  var containerId = JSON.parse("\"cd177cbbbd8b5c59\"");
+  var containerId = JSON.parse("\"2fbf7a6f447f07f3\"");
   var containerElem = document.getElementById(containerId);
   var tabLinks = null;
   var tabContents = null;
