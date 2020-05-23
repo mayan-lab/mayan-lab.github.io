@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://mayan-lab.github.io/zh/</loc>
-    <lastmod>2020-04-10T17:01:51+08:00</lastmod>
+    <lastmod>2020-05-23T09:30:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,13 +18,8 @@
   </url>
   
   <url>
-    <loc>https://mayan-lab.github.io/zh/tags/d3js/</loc>
-    <lastmod>2020-04-10T17:01:51+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mayan-lab.github.io/zh/tags/</loc>
-    <lastmod>2020-04-10T17:01:51+08:00</lastmod>
+    <lastmod>2020-05-23T09:30:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -38,8 +33,13 @@
   </url>
   
   <url>
+    <loc>https://mayan-lab.github.io/zh/tags/%E4%B9%A6%E7%B1%8D/</loc>
+    <lastmod>2020-05-23T09:30:38+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mayan-lab.github.io/zh/posts/</loc>
-    <lastmod>2020-04-10T17:01:51+08:00</lastmod>
+    <lastmod>2020-05-23T09:30:38+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -50,6 +50,46 @@
                 hreflang="zh"
                 href="https://mayan-lab.github.io/zh/posts/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/posts/literary-reading/</loc>
+    <lastmod>2020-05-23T09:30:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/tags/nas/</loc>
+    <lastmod>2020-05-15T15:15:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/tags/python/</loc>
+    <lastmod>2020-05-15T15:15:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/tags/raspberry-pi/</loc>
+    <lastmod>2020-05-15T15:15:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/tags/%E6%A0%91%E8%8E%93%E6%B4%BE4b/</loc>
+    <lastmod>2020-05-15T15:15:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/posts/raspberry-pi-4/</loc>
+    <lastmod>2020-05-15T15:15:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/posts/15n15n/</loc>
+    <lastmod>2020-04-22T22:10:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mayan-lab.github.io/zh/tags/d3js/</loc>
+    <lastmod>2020-04-10T17:01:51+08:00</lastmod>
   </url>
   
   <url>

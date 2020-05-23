@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Raspberry pi on 玛雅实验室</title>
+    <link>https://mayan-lab.github.io/zh/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry pi on 玛雅实验室</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>shengzhaoqiu@gmail.com (zhaoqiu)</managingEditor>
+    <webMaster>shengzhaoqiu@gmail.com (zhaoqiu)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 15 May 2020 15:15:38 +0800</lastBuildDate>
+    
+        <atom:link href="https://mayan-lab.github.io/zh/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>树莓派4b相关配置</title>
+        <link>https://mayan-lab.github.io/zh/posts/raspberry-pi-4/</link>
+        <pubDate>Fri, 15 May 2020 15:15:38 +0800</pubDate>
+        <author>shengzhaoqiu@gmail.com (zhaoqiu)</author>
+        <atom:modified>Fri, 15 May 2020 15:15:38 +0800</atom:modified>
+        <guid>https://mayan-lab.github.io/zh/posts/raspberry-pi-4/</guid>
+        <description>系统安装 https://github.com/openfans-community-offical/Debian-Pi-Aarch64/blob/master/README_ORGI.md 系统配置 无显示器连接vnc时需要开启： virtual-monitor-enable 性能优化 关闭窗口合并 Python配置 pip 安装 export PATH=&amp;rdquo;/home/pi/miniconda3/bin:$PATH&amp;rdquo; sudo apt-get install python3-venv python3 -m venv venv1 venv2 python -m pip install &amp;ndash;upgrade pip 使用 pip3 install numpy 出错</description>
+        
+        <dc:creator>zhaoqiu</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>树莓派4b</category>
+            
+          
+            
+              <category>Raspberry pi</category>
+            
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>NAS</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
