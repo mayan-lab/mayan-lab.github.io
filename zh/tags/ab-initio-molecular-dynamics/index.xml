@@ -29,7 +29,7 @@
         <author>shengzhaoqiu@gmail.com (zhaoqiu)</author>
         <atom:modified>Thu, 28 May 2020 17:30:06 +0800</atom:modified>
         <guid>https://mayan-lab.github.io/zh/posts/ab-initio-molecular-dynamics/</guid>
-        <description>概念 密度泛函 软件 VASP(Vienna Ab - initio Simulation Package) LAMMPS $$ \Delta_{30} = \cfrac{\frac{^{15}\mathrm{N} \kern{0.1em} ^{15}\mathrm{N}}{^{14}\mathrm{N} \kern{0.1em} ^{14}\mathrm{N}}}{ \left( \frac{^{15}\mathrm{N} }{^{14}\mathrm{N}} \right) ^2 } - 1 $$ $$ \delta ^{15} \mathrm N = \cfrac{ \frac{^{15}\mathrm{N} }{^{14}\mathrm{N}} }{ \quad \left( \frac{^{15}\mathrm{N} }{^{14}\mathrm{N}} \right) _{air} } - 1 $$ 结晶学 英文对照 三斜晶系 triclinic system 单斜晶系 monoclinic</description>
+        <description>概念 密度泛函 软件 VASP(Vienna Ab - initio Simulation Package) 安装开始前，切换到root，检查pwd是否为root的工作路径。 系统选择 CentOS7 安装正常 CentOS7 &amp;amp; CentOS8 实体机安装失败，7：不能</description>
         
         <dc:creator>zhaoqiu</dc:creator>
         

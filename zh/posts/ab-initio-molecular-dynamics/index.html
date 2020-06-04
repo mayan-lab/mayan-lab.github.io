@@ -1627,7 +1627,7 @@
 <div class="single__infos">
   <time class="single__info" title="创建日期">📅&nbsp;2020年05月28日 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="阅读时长"> ☕&nbsp;1&nbsp;分钟 </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="阅读时长"> ☕&nbsp;2&nbsp;分钟 </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="作者">👽&nbsp;zhaoqiu</span>
   
@@ -1653,6 +1653,24 @@
 <h3 id="密度泛函">密度泛函</h3>
 <h2 id="软件">软件</h2>
 <h3 id="vaspvienna-ab---initio-simulation-package">VASP(Vienna Ab - initio Simulation Package)</h3>
+<p>安装开始前，切换到root，检查pwd是否为root的工作路径。</p>
+<h4 id="系统选择">系统选择</h4>
+<p>CentOS7 安装正常<br />
+CentOS7 &amp; CentOS8 实体机安装失败，7：不能GUI下安装；8：循环接收license，进不去系统。<br />
+Deepin 15.11 &amp; Deepin 20beta 编译阶段失败</p>
+<p>Ubuntu 20</p>
+<h4 id="intel-parallel-studio-xe">Intel parallel studio XE</h4>
+<p>安装<code>c++</code>等必要组件，<code>sudo apt install build-essential</code></p>
+<p>解压压缩包，执行<code>./install_GUI.sh</code>，Key：S477-2V7GNJ9G，选择必要的组件进行安装。<br />
+默认路径<code>/opt/intel</code>。</p>
+<p>安装完毕，添加环境变量。<code>~/.bashrc</code>，<code>source /opt/intel/parallel_studio_xe_2019/psxevars.sh</code>，重新打开terminal，输入<code>ifort -v</code>测试是否成功。<br />
+进入<code>/opt/intel/compilers_and_libraries_2019.1.144/linux/mkl/interfaces/fftw3xf</code>，运行<code>make libintel64</code>。成功后，会产生libfftw3xf_intel.a库文件。</p>
+<h4 id="vasp">VASP</h4>
+<p>解压压缩包，最好解压在root目录下。复制<code>arch/makefile.include.linux_intel</code> 到根目录并改名<code>makefile.include</code>，修改<code>makefile.include</code>中<code>OFLAG=-xhost</code>修改成<code>OFLAG=-xhost</code>。<br />
+使用<code>patch -p0 &lt; patch.5.4.4.16052018</code>进行补丁修复。<br />
+在根目录执行 <code>make all</code>。编译完成后，<code>vasp/bin</code>目录下会出现<code>vasp_gam</code>,<code>vasp_ncl</code>,<code>vasp_std</code>，分别是Gamma only版，非共线版和标准版。讲<code>vasp_std</code>改名为<code>vasp</code>。<br />
+在<code>~/.bashrc</code>中添加：<code>export PATH=$PATH:/root/vasp.5.4.4/bin</code></p>
+<h4 id="测试">测试</h4>
 <h3 id="lammps">LAMMPS</h3>
 <p>$$ \Delta_{30} = \cfrac{\frac{^{15}\mathrm{N} \kern{0.1em} ^{15}\mathrm{N}}{^{14}\mathrm{N} \kern{0.1em} ^{14}\mathrm{N}}}{ \left( \frac{^{15}\mathrm{N} }{^{14}\mathrm{N}} \right) ^2 } - 1 $$</p>
 <p>$$ \delta ^{15} \mathrm N = \cfrac{ \frac{^{15}\mathrm{N} }{^{14}\mathrm{N}} }{ \quad \left( \frac{^{15}\mathrm{N} }{^{14}\mathrm{N}} \right) _{air} } - 1 $$</p>
@@ -2172,7 +2190,14 @@ document.addEventListener('DOMContentLoaded', function () {
     </li>
     <li><a href="#软件">软件</a>
       <ul>
-        <li><a href="#vaspvienna-ab---initio-simulation-package">VASP(Vienna Ab - initio Simulation Package)</a></li>
+        <li><a href="#vaspvienna-ab---initio-simulation-package">VASP(Vienna Ab - initio Simulation Package)</a>
+          <ul>
+            <li><a href="#系统选择">系统选择</a></li>
+            <li><a href="#intel-parallel-studio-xe">Intel parallel studio XE</a></li>
+            <li><a href="#vasp">VASP</a></li>
+            <li><a href="#测试">测试</a></li>
+          </ul>
+        </li>
         <li><a href="#lammps">LAMMPS</a></li>
       </ul>
     </li>
