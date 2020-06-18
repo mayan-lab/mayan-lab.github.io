@@ -1216,7 +1216,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="利用堆栈对MATLAB Gui控件输入的字符串表达式进行解析">
 
-<meta name="generator" content="Hugo 0.68.3" />
+<meta name="generator" content="Hugo 0.72.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1679,13 +1679,17 @@
   <div class="expand__content">
     <div class="alert alert-info" role="alert" data-dir="ltr"><ol>
 <li>读入数值 <code>2</code> <code>1</code> <code>11</code>入操作数栈，读到减号 <code>-</code>，减号需要两个操作数，从操作数栈弹出两个数值，依次是 <code>11</code> <code>1</code>，计算 <code>1-11</code>，将结果 <code>-10</code>压入操作数栈。</li>
-</ol></div>
+</ol>
+</div>
 <div class="alert alert-info" role="alert" data-dir="ltr"><ol start="2">
 <li>继续扫描表达式，读到 <code>e</code>，压入自然底数的数值，在matlab中通过 <code>exp(1)</code> 实现。接着将 <code>2</code>入栈。读至 <code>^</code>，弹出操作数栈两个操作数，做幂指数运算：<code>e^2</code>。将结果入栈。</li>
-</ol></div>
+</ol>
+</div>
 <div class="alert alert-info" role="alert" data-dir="ltr"><ol start="3">
 <li>以此类推。</li>
-</ol></div>
+</ol>
+</div>
+
   </div>
 </div>
 <h3 id="转化为后缀表达式的过程">转化为后缀表达式的过程:</h3>
@@ -1731,7 +1735,7 @@
 <li>查询时候包含某个字符串：ismember(strGroup, oneStr)，将字符串数组作为第一参数，方便获得索引。</li>
 </ul>
 
-<div id="cd177cbbbd8b5c59" class="tab">
+<div id="2fbf7a6f447f07f3" class="tab">
   <div class="tab__links">
     
       <button class="tab__link" aria-label="Tab link">示例</button>
@@ -1744,7 +1748,7 @@
   
 
 
-<div id="62e3dacfc1edf912" class="tab__content">
+<div id="0d5096d0ff3adf12" class="tab__content">
   <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">  1
@@ -2017,8 +2021,8 @@
        <span class="k">end</span>
     <span class="k">end</span>
 <span class="k">end</span>
-<span class="k">
-</span><span class="k">function</span><span class="w"> </span>postfixExp <span class="p">=</span><span class="w"> </span><span class="nf">transformPostfixExpression</span><span class="p">(</span>expression<span class="p">)</span><span class="w">
+
+<span class="k">function</span><span class="w"> </span>postfixExp <span class="p">=</span><span class="w"> </span><span class="nf">transformPostfixExpression</span><span class="p">(</span>expression<span class="p">)</span><span class="w">
 </span><span class="w">
 </span><span class="w">    </span><span class="cm">%{
 </span><span class="cm">    去除空格
@@ -2185,7 +2189,7 @@
 </div>
 
 
-<div id="8aaa3f66294264c9" class="tab__content">
+<div id="78c637848123c7a0" class="tab__content">
   <p>为了配合网页语法高亮，注释采用<code>%{ %}</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2272,8 +2276,8 @@
        <span class="n">stack</span><span class="p">=</span><span class="n">cell</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
    <span class="k">end</span>
    <span class="k">methods</span>
-<span class="k">
-</span><span class="k">       function</span><span class="w"> </span><span class="nf">displayU</span><span class="p">(</span>this<span class="p">)</span><span class="w">
+
+<span class="k">       function</span><span class="w"> </span><span class="nf">displayU</span><span class="p">(</span>this<span class="p">)</span><span class="w">
 </span><span class="w">           </span><span class="n">celldisp</span><span class="p">(</span><span class="n">this</span><span class="p">.</span><span class="n">stack</span><span class="p">);</span>
        <span class="k">end</span>
 <span class="k">       function</span><span class="w"> </span>x <span class="p">=</span><span class="w"> </span><span class="nf">getTop</span><span class="p">(</span>this<span class="p">)</span><span class="w">
@@ -2345,7 +2349,7 @@
 </div>
 
 
-<div id="bf3132b51f35f03e" class="tab__content">
+<div id="cdb84b80d2126233" class="tab__content">
   <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">  1
@@ -2611,8 +2615,8 @@
 <span class="n">expressionedit</span><span class="p">=</span><span class="n">uicontrol</span><span class="p">(</span><span class="n">inputpanel</span><span class="p">,</span><span class="s">&#39;Units&#39;</span><span class="p">,</span><span class="s">&#39;Normalized&#39;</span><span class="p">,</span><span class="s">&#39;Position&#39;</span><span class="p">,[</span><span class="mf">0.25</span> <span class="mf">0.4</span> <span class="mf">0.5</span> <span class="mf">0.2</span><span class="p">],</span><span class="s">&#39;Style&#39;</span><span class="p">,</span><span class="s">&#39;edit&#39;</span><span class="p">,</span><span class="s">&#39;String&#39;</span><span class="p">,</span><span class="s">&#39;&#39;</span><span class="p">,</span><span class="s">&#39;fontsize&#39;</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="s">&#39;Callback&#39;</span><span class="p">,{@</span><span class="n">exp_Callback</span><span class="p">,</span> <span class="n">resultpanel</span><span class="p">});</span>
 <span class="n">info</span> <span class="p">=</span> <span class="p">{</span><span class="s">&#39;运行时变量:&#39;</span><span class="p">;</span><span class="s">&#39;a = [1 2;3 4]&#39;</span><span class="p">;</span><span class="s">&#39;b = [5 6;7 8]&#39;</span><span class="p">;</span><span class="s">&#39;nameList = {&#39;&#39;a&#39;&#39;,&#39;&#39;b&#39;&#39;}&#39;</span><span class="p">;};</span>
 <span class="n">uicontrol</span><span class="p">(</span><span class="n">inputpanel</span><span class="p">,</span><span class="s">&#39;Style&#39;</span><span class="p">,</span><span class="s">&#39;text&#39;</span><span class="p">,</span><span class="s">&#39;Units&#39;</span><span class="p">,</span><span class="s">&#39;Normalized&#39;</span><span class="p">,</span><span class="s">&#39;String&#39;</span><span class="p">,</span><span class="n">info</span><span class="p">,</span><span class="s">&#39;fontsize&#39;</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="s">&#39;Position&#39;</span><span class="p">,[</span><span class="mf">0.25</span> <span class="mf">0.6</span> <span class="mf">0.5</span> <span class="mf">0.3</span><span class="p">]);</span>
-<span class="k">
-</span><span class="k">function</span><span class="w"> </span><span class="nf">exp_Callback</span><span class="p">(</span>src,event,resultpanel<span class="p">)</span><span class="w">
+
+<span class="k">function</span><span class="w"> </span><span class="nf">exp_Callback</span><span class="p">(</span>src,event,resultpanel<span class="p">)</span><span class="w">
 </span><span class="w">
 </span><span class="w">    </span><span class="n">expression</span> <span class="p">=</span> <span class="n">get</span><span class="p">(</span><span class="n">src</span><span class="p">,</span><span class="s">&#39;String&#39;</span><span class="p">);</span>
     <span class="k">if</span> <span class="o">~</span><span class="nb">isempty</span><span class="p">(</span><span class="n">expression</span><span class="p">)</span>
@@ -2861,7 +2865,7 @@
 <script>
   'use strict';
 
-  var containerId = JSON.parse("\"cd177cbbbd8b5c59\"");
+  var containerId = JSON.parse("\"2fbf7a6f447f07f3\"");
   var containerElem = document.getElementById(containerId);
   var tabLinks = null;
   var tabContents = null;
